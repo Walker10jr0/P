@@ -1,0 +1,52 @@
+﻿[        ] 
+[        ]              WebGrab+Plus/w MDB & REX Postprocess -- version  V2.1              
+[        ] 
+[        ]                                 Jan van Straaten                                
+[        ]                              Francis De Paemeleere                              
+[        ] 
+[        ]             thanks to Paul Weterings and all the contributing users             
+[        ] --------------------------------------------------------------------------------
+[        ] 
+[        ] Job started at 14/05/2019 23:16:08
+[  Debug ] 
+[  Debug ] Running  on: Microsoft Windows NT 6.2.9200.0
+[  Debug ] Environment: 4.0.30319.42000
+[  Debug ] 
+[  Debug ] Loading timezone data
+[  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
+[  Debug ] Reading config file: C:\Users\ELTON\AppData\Local\WebGrab+Plus\WebGrab++.config.xml
+[  Info  ] found: C:\Users\ELTON\AppData\Local\WebGrab+Plus\siteini.pack\Brazil\clarotv.com.br.ini -- Revision 01
+[  Info  ] found: C:\Users\ELTON\AppData\Local\WebGrab+Plus\siteini.pack\Brazil\mi.tv.ini -- Revision 10
+[Warning ] Incompatible version of C:\Users\ELTON\AppData\Local\WebGrab+Plus\siteini.pack\Brazil\mi.tv.ini
+[Warning ] SW  V2.1 should be >= SiteIni V2.1.1: 
+[Warning ] Upgrade your WebGrab+Plus version to V2.1.1 or higher!! @http://www.webgrabplus.com/download
+[  Info  ] found: C:\Users\ELTON\AppData\Local\WebGrab+Plus\siteini.pack\Brazil\netcombo.com.br.ini -- Revision 00
+[  Info  ] found: C:\Users\ELTON\AppData\Local\WebGrab+Plus\siteini.pack\Brazil\tvmagazine.com.br.ini -- Revision 02
+[        ] Job finished at 14/05/2019 23:16:16 done in 8s
+[Critical] Config syntax exception:
+[Critical]       file: C:\Users\ELTON\AppData\Local\WebGrab+Plus\WebGrab++.config.xml
+[Critical]    message: 
+[Error   ] error in channel list of the config file!!
+[Error   ]      duplicate xmltv_id value --  -- !!
+[Error   ]      in :
+[Error   ] <channel update="i" site="clarotv.com.br" site_id="5" xmltv_id="BAND">BAND</channel>
+[Error   ] <channel update="i" site="tvmagazine.com.br" site_id="band/BAN" xmltv_id="BAND">BAND</channel>
+[Error   ] error in channel list of the config file!!
+[Error   ]      duplicate xmltv_id value --  -- !!
+[Error   ]      in :
+[Error   ] <channel update="i" site="clarotv.com.br" site_id="86" xmltv_id="SBT">SBT</channel>
+[Error   ] <channel update="i" site="netcombo.com.br" site_id="468" xmltv_id="SBT">SBT</channel>
+[Error   ] error in channel list of the config file!!
+[Error   ]      duplicate xmltv_id value --  -- !!
+[Error   ]      in :
+[Error   ] <channel update="i" site="mi.tv" site_id="br_960df919-cfd9-4d41-9fbc-31d12abb8f09" xmltv_id="Record">Record</channel>
+[Error   ] <channel update="i" site="netcombo.com.br" site_id="465" xmltv_id="Record">Record</channel>
+[Error   ] error in channel list of the config file!!
+[Error   ]      duplicate xmltv_id value --  -- !!
+[Error   ]      in :
+[Error   ] <channel update="i" site="mi.tv" site_id="br_e41e527b-8375-4523-a9af-d369a1549bd8" xmltv_id="Band">Band</channel>
+[Error   ] <channel update="i" site="netcombo.com.br" site_id="408" xmltv_id="Band">Band</channel>
+[Error   ] duplicate xmltv-id entries will mess-up the xmltv output!
+[Error   ] ---- correct the channel-list to have unique xmltv-id values ---
+[Critical] For detailed info, see log file C:\Users\ELTON\AppData\Local\WebGrab+Plus\WebGrab++.log.txt
+[Critical] Execution stopped
